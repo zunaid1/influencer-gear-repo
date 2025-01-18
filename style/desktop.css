@@ -18,7 +18,7 @@
 .main {
 	width: 90%;
 	margin: 0 auto;
-	border: 2px dotted tomato;
+	/* border: 2px dotted tomato; */
 }
 
 /* -------------------Default Styles END---------------*/
@@ -157,27 +157,74 @@
 .collection-caption {}
 
 .cards {
-	border: 1px dotted green;
-	padding: 20px;
+	display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+		/* border: 2px dotted green; */
+		padding: 20px;
 }
 
 .card {
 	border: dotted 2px blanchedalmond;
-	width: 330px;
-	height: 450px;
+	width: 100%;
+		height: auto;
 	padding: 10px;
+
 }
 
 .card img {
 	/* width: calc(100% - 10px * 2); */
 	width: calc(100% - 10px * 2);
-	height: 50%;
+	height: auto;
 	padding: 10px;
-
 }
 
+.product-name {
+	font-size: 28px;
+	font-weight: 600;
+	color: #18191F;
+}
+.price {
+	font-size: 24px;
+	font-weight: 400;
+
+}
 .checked {
 	color: orange;
 }
 
 /* -------------Popular Collections----------------------  */
+/* JOIN Banner Section START */
+.join-banner {
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}
+
+
+/* .join-banner>div {
+	border: 2px dotted black;
+} */
+
+.join-banner-content {
+	line-height: 1.5;
+}
+
+.join-banner-img {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.join-banner-title {
+	font-weight: 800;
+	font-size: 38px;
+}
+
+.join-banner-desc {}
+
+.btn-join-now {
+	padding: 1rem .5rem;
+}
+
+/* -------------JOIN Banner Section END---------------- */

@@ -8,10 +8,12 @@
 		display: none;
 	}
 
-	.banner {
+	.banner,
+	.join-banner {
 		flex-direction: column-reverse;
 	}
-.banner-content {
+.banner-content,
+.join-banner-content {
 	text-align: center;
 }
 
@@ -20,5 +22,8 @@
 	grid-gap: 15px;	
 }
 
+.cards {
+	grid-template-columns: 1fr;
+}
 }
 
