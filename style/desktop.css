@@ -18,7 +18,7 @@
 .main {
 	width: 90%;
 	margin: 0 auto;
-	border: 1px solid tomato;
+	border: 2px dotted tomato;
 }
 
 /* -------------------Default Styles END---------------*/
@@ -44,6 +44,13 @@
 
 /* -------------------Shared Styles END---------------*/
 
+.text-justify {
+	text-align: justify;
+}
+
+.text-center {
+	text-align: center;
+}
 
 .btn {
 	padding: 24px 10px;
@@ -135,3 +142,42 @@
 	background-position: center;
 }
 /* ---------------Banner Section END--------------  */
+/* SPONSORS Section START  */
+.sponsors {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	justify-items: center;
+	align-items: center;
+}
+
+/* ---------------SPONSORS Section START----------------------  */
+
+
+/* Popular Collections  */
+.collection-caption {}
+
+.cards {
+	border: 1px dotted green;
+	padding: 20px;
+}
+
+.card {
+	border: dotted 2px blanchedalmond;
+	width: 330px;
+	height: 450px;
+	padding: 10px;
+}
+
+.card img {
+	/* width: calc(100% - 10px * 2); */
+	width: calc(100% - 10px * 2);
+	height: 50%;
+	padding: 10px;
+
+}
+
+.checked {
+	color: orange;
+}
+
+/* -------------Popular Collections----------------------  */

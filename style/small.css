@@ -11,5 +11,14 @@
 	.banner {
 		flex-direction: column-reverse;
 	}
+.banner-content {
+	text-align: center;
+}
+
+.sponsors {
+	grid-template-columns: 1fr;
+	grid-gap: 15px;	
+}
+
 }
 
