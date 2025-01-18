@@ -1,3 +1,137 @@
-h1{
-	background-color: tomato;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.poppins-regular {
+	font-family: "Poppins", serif;
+	font-weight: 400;
+	font-style: normal;
 }
+
+/* Default Styles START*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header,
+.main {
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid tomato;
+}
+
+/* -------------------Default Styles END---------------*/
+
+
+/* Shared Styles START*/
+.flex {
+	display: flex;
+}
+
+.section-default {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+:root {
+	--primary-color: #3A3A3A;
+}
+
+/* -------------------Shared Styles END---------------*/
+
+
+.btn {
+	padding: 24px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.btn-primary {
+	background-color: #E02C6D;
+	color: white;
+	padding: 15px 10px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.btn-link {
+	text-decoration: none;
+	color: white;
+}
+
+.primary-color {
+	color: var(--primary-color);
+}
+
+.brand {
+	font-size: 1.5 rem;
+	font-weight: 800;
+}
+
+.header {
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.navlist {
+	list-style: none;
+}
+
+.navlist>li {
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: 500;
+
+
+}
+
+.navlist>li>a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+/* Banner Section START  */
+.btn-prebook {
+	border-radius: 40px;
+	padding: 16px 24px;
+	font-weight: 800;
+	font-size: 16px;
+	color: #fff;
+}
+
+.banner {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner-content,
+.banner-img {
+	/* border: 2px dotted red; */
+}
+
+.banner-content {
+	line-height: 1.5;
+}
+
+.banner-title {
+	font-size: 52px;
+	font-weight: 800;
+}
+
+.banner-img {
+	background-image: url('/images/Circle\ design.svg');
+	background-position: center;
+}
+/* ---------------Banner Section END--------------  */

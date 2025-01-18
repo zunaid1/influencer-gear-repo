@@ -1,0 +1,15 @@
+@media screen and (max-width:576px) {
+
+	.nav-item-home,
+	.nav-item-product,
+	.nav-item-signup,
+	.nav-item-login,
+	.nav-item-search {
+		display: none;
+	}
+
+	.banner {
+		flex-direction: column-reverse;
+	}
+}
+
